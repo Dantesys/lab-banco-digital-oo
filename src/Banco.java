@@ -33,7 +33,7 @@ public class Banco {
         contas.add(conta);
         setContas(contas);
         System.out.println("Conta criada com sucesso!");
-        System.out.printf("== Bem-vindo ao %s ==\n",this.nome);
+        System.out.printf("== Bem-vindo ao %s ==\n",this.getNome());
         return conta;
     }
 }
